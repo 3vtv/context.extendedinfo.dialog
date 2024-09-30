@@ -6,7 +6,7 @@ def main():
         xbmc.executebuiltin('RunScript(script.extendedinfo,info=extendedinfo,dbid=%s,id=%s)' % (xbmc.getInfoLabel('ListItem.DBID'),xbmc.getInfoLabel('ListItem.IMDBNumber')))
 
     elif xbmc.getCondVisibility('String.IsEqual(ListItem.DBType,movie)'):
-        xbmc.executebuiltin('RunScript(script.extendedinfo,info=extendedinfo,name=\'"%s"\',name=\'"%s"\',year=%s)' % (xbmc.getInfoLabel('ListItem.Title'),xbmc.getInfoLabel('OriginalTitle'),xbmc.getInfoLabel('ListItem.Year')))
+        xbmc.executebuiltin('RunScript(script.extendedinfo,info=extendedinfo,name=\'"%s"\',year=%s)' % (xbmc.getInfoLabel('ListItem.Title'),xbmc.getInfoLabel('ListItem.Year')))
 
     elif xbmc.getCondVisibility('String.IsEqual(ListItem.DBType,tvshow)'):
         xbmc.executebuiltin('RunScript(script.extendedinfo,info=extendedtvinfo,name=\'"%s"\',name=\'"%s"\',year=%s)' % (xbmc.getInfoLabel('ListItem.TVShowTitle'),xbmc.getInfoLabel('ListItem.OriginalTitle'),xbmc.getInfoLabel('ListItem.Year')))
