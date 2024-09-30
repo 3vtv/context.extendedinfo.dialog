@@ -1,3 +1,17 @@
+v1.1.0
+- Python 3 compatible (Matrix / Nexus / Omega / Piers)
+- reactivation for movies, TV shows, seasons, episodes and people (actors, directors)
+- modify language file
+
+v1.0.3
+- Leia
+
+v1.0.2
+- try movie name when no ids provided
+
+v1.0.1
+- use sys.listitem for all info
+
 v1.0.0
 - added support for actors and directors
 
