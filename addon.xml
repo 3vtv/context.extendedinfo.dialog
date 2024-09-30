@@ -15,7 +15,7 @@
   <extension point="kodi.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Open ExtendedInfo dialog from Kodi context menu</summary>
-    <description lang="en">Open ExtendedInfo dialog from Kodi context menu. Needs script.extendedinfo installed and activated. Available for movies, tv shows, seasons, episodes and persons (actor, director) currently.</description>
+    <description lang="en">Open ExtendedInfo dialog from Kodi context menu. Needs script.extendedinfo installed and activated. Available for movies, tv shows, seasons, episodes and persons (actors, directors) currently.</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
     <forum></forum>
     <source>https://github.com/3vtv/context.extendedinfo.dialog</source>
