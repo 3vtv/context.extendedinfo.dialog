@@ -2,7 +2,7 @@
 <addon id="context.extendedinfo.dialog" name="ExtendedInfo Script - Open dialog" version="1.1.0" provider-name="3vtv | phil65">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.extendedinfo" version="6.0.7"/>
+    <import addon="script.extendedinfo" version="6.0.1"/>
   </requires>
   <extension point="kodi.context.item">
     <menu id="kodi.core.main">
